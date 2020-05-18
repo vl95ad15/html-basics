@@ -127,6 +127,9 @@ h1 {
 
 #meta {
   padding: 1px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 h1 {
