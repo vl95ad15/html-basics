@@ -1,0 +1,39 @@
+/* Fonts */
+
+body {
+    font: 10pt Tahoma, Sans-Serif;
+  }
+  
+  h1 {
+    font-size: 180%;
+    letter-spacing: 1px;
+  }
+  
+  #main h2 {
+    font-size: 130%;
+  }
+  
+  #sections,
+  #news {
+    font-size: 80%;
+  }
+  
+  #sections h2,
+  #news h2 {
+    font-size: 125%;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #news h3 {
+    font-size: 100%;
+    font-weight: bold;
+  }
+  
+  #meta {
+    font-size: 70%;
+  }
+  
+  #user {
+    font-size: 120%;
+  }
