@@ -31,6 +31,10 @@ body {
   margin-right: 15px;
 }
 
+#main p {
+  text-indent: 25px;
+}
+
 #main h2 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -42,6 +46,7 @@ body {
   border-style: solid;
   border-width: 1px;
   margin: 0px 15px 15px 0px;
+  transform: rotate(-90deg);
 }
 
 #sections {
@@ -110,6 +115,7 @@ body {
   top: 0;
   right: 0;
   margin: 20px;
+  text-align: right;
 }
 
 #user p {
@@ -122,7 +128,7 @@ h1 {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
 #meta {
@@ -132,12 +138,14 @@ h1 {
   width: 100%;
 }
 
-h1 {
-  padding-left: 60px;
-}
-
 #meta p {
   margin: 5px;
+}
+
+.box-image, .link-image {
+  float: left;
+  width: 60px;
+  height: 60px;
 }
 
 /* Colors */
@@ -164,7 +172,7 @@ body {
   color: white;
 }
 
-h1 {
+.box-image, h1{
   background: url(../images/logo.png) left top no-repeat;
 }
 
@@ -186,6 +194,10 @@ h1 {
   background: #d00;
 }
 
+#selected_menu .active {
+  background: #d00;
+}
+
 #news h2 {
   background: url(../images/news-head-bg.png) #dde6ff left top repeat-x;
 }
@@ -203,6 +215,16 @@ h1 {
 
 #user {
   color: white;
+}
+
+#user p a {
+  color: white;
+}
+
+.homepage_link {
+  text-decoration: none;
+  color: white;
+
 }
 
 /* Fonts */
@@ -242,5 +264,5 @@ h1 {
 }
 
 #user {
-  font-size: 90%;
+  font-size: 110%;
 }
