@@ -3,13 +3,9 @@
 html {
     background: url(../images/window-bg.png) #eee;
   }
-  
-  html>body #body2 {
-    background: url(../images/left-body-bg.png) 20% 0 repeat-y white;
-  }
-  
+
   body {
-    background: url(../images/left-body-bg.png) 20% 0 repeat-y;
+    background: url(../images/left-body-bg.png) white 20% 0 repeat-y;
     color: black;
   }
   
