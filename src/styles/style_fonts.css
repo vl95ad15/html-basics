@@ -12,6 +12,10 @@ body {
   #main h2 {
     font-size: 130%;
   }
+
+#main p {
+  text-indent: 25px;
+}
   
   #sections,
   #news {
@@ -35,5 +39,5 @@ body {
   }
   
   #user {
-    font-size: 120%;
+    font-size: 100%;
   }
